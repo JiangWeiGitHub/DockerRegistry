@@ -7,3 +7,6 @@ docker push localhost:5000/ubuntu
 docker pull owncloud && docker tag owncloud localhost:5000/owncloud
 docker push localhost:5000/owncloud
 
+docker run -d -p 80:80 owncloud
+browser: http://localhost/
+
